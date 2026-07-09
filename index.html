@@ -3,23 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sudoku LMS 2026 - Dashboard</title>
+    <title>SUDOKU LMS 2026 - SCOREKEEPER</title>
     <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
+        body {
+            margin: 0; padding: 0; height: 100vh; display: flex;
+            justify-content: center; align-items: center;
+            background-color: #0f172a; font-family: system-ui, sans-serif;
         }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
+        .card {
+            text-align: center; padding: 3rem; background: #1e293b;
+            border-radius: 16px; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.3);
+            max-width: 400px; width: 90%; border: 1px solid #334155;
         }
+        h1 { color: #f8fafc; margin: 0 0 0.5rem 0; font-size: 1.5rem; letter-spacing: 0.05em; }
+        p { color: #94a3b8; font-size: 0.9rem; margin-bottom: 2rem; }
+        .btn {
+            display: inline-block; text-decoration: none; background: #3b82f6;
+            color: white; padding: 0.75rem 2rem; font-weight: 600;
+            border-radius: 8px; transition: background 0.2s;
+        }
+        .btn:hover { background: #2563eb; }
     </style>
 </head>
 <body>
-    <iframe src="https://script.google.com/macros/s/AKfycbwCOI0AJVHIfcgJMlqsie6Hu_r2Dbc7xJMgHWklRRUtKxE838cZ1ejZYRavSMx6h1w/exec"></iframe>
+    <div class="card">
+        <h1>SUDOKU LMS 2026</h1>
+        <p>SISTEM SCOREKEEPER PERTANDINGAN</p>
+        <a href="https://script.google.com/macros/s/AKfycbwCOI0AJVHIfcgJMlqsie6Hu_r2Dbc7xJMgHWklRRUtKxE838cZ1ejZYRavSMx6h1w/exec" class="btn">
+            Buka Dashboard Utama
+        </a>
+    </div>
 </body>
 </html>
